@@ -1,0 +1,45 @@
+body{
+    margin:0;
+    padding:0;
+    overflow-y: hidden;
+}
+.largerSquare{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    margin:20vw 20vw 20vw 20vw;
+    width:900px;
+    height:900px;
+    background-color:black ;
+}
+.square{
+    width: calc(900px / 3);    
+    height:calc(900px / 3);
+}
+.square1{
+    border-right:1px solid white;
+    border-bottom:1px solid white;  
+}
+.square2{
+    border-right:1px solid white;
+    border-bottom:1px solid white;
+}
+.square3{
+    border-bottom:1px solid white;
+}
+.square4{
+    border-right:1px solid white;
+    border-bottom:1px solid white;
+}
+.square5{
+    border-right:1px solid white;
+    border-bottom:1px solid white;
+}
+.square6{
+    border-bottom:1px solid white;
+}
+.square7{
+    border-right:1px solid white;
+}
+.square8{
+    border-right:1px solid white;
+}
